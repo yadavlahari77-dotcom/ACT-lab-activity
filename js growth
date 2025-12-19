@@ -1,0 +1,1458 @@
+
+ 
+
+// function numbers(num){
+//     if (num==0){
+//         console.log("zero")
+//     }
+//     else if (num>0){
+//         console.log("positive")
+//     }
+//     else {
+//         console.log("negative")
+//     }
+// }
+
+// numbers(0);
+
+// function numbers(num){
+//     num.toLowerCase()
+//     let y = num.toLowerCase();
+//     switch (y){
+//         case"a":
+//         console.log("vowel");
+//         break;
+//         case"e":
+//         console.log("vowel");
+//         break;
+//         case"i":
+//         console.log("vowel");
+//         break;
+//         case"o":
+//         console.log("vowel");
+//         break;
+//         case"u":
+//         console.log("vowel");
+//         break;
+//         default:
+//             console.log("consonent");
+//     }
+
+    
+// }
+
+// numbers("u");
+
+
+// function leapyears(year) {
+//     if( (year%400===0) || (year%4 ===0) ){
+//         console.log("leap year");
+//     }
+// else{
+//     console.log("not a leap year");
+// }
+// }
+
+// leapyears(2015);
+
+// function divide(num) {
+//     if ((num%3===0) && (num%5===0)) {
+//         console.log("divisable");
+//     }
+//     else {
+//         console.log("not divisable");
+//     }
+// }
+
+// divide(55);
+
+// function classify(num) {
+//     if ((num>=90) && (num<=100)) {
+//         console.log("A");
+//     }
+//    else if ((num>=80) && (num<=89)) {
+//         console.log("B");
+//     }
+//    else if ((num>=70) && (num<=79)) {
+//         console.log("c");
+//     }
+//     else if ((num>=60) && (num<=69)) {
+//         console.log("D");
+//     }
+//     else {
+//         console.log("F");
+
+//     }
+// }
+
+// classify(93);
+
+// function print() {
+//     for ( i=1 ; i<=20 ; i++ ) {
+//         console.log(i);
+//     }
+// }
+
+// print();
+
+// function print() {
+
+//     let sum=0;
+//     for ( i=1 ; i<=100 ; i++ ) {
+//         sum += i;
+        
+//     }
+
+//     return sum;
+// }
+
+// let result = print();
+// console.log(result);
+
+
+// function print() {
+//     for ( i=48 ; i>=1; i-=2 ) {
+//         console.log(i);
+//     }
+// }
+
+// print();
+
+// let num = prompt("enter number")
+
+
+// function factorial(num) {
+
+//     let fact=1;
+//     for ( i=1 ; i<=num; i++ ) {
+//         fact*= i;
+        
+//     }
+
+//     return fact;
+// }
+//  console.log(factorial(num));
+
+
+// print numbers from 10 to 1 using a while loop.
+
+// function reverseprint(i){
+//     while(i>=1){
+//         console.log(i);
+//          i--;
+//     }
+// }
+
+// reverseprint(7);
+
+// function guesspassword(){
+//     let pass = prompt("password please!")
+//     let actpass = "hello";
+//     while(!(pass==actpass)){
+//         pass=prompt("wrong password , try again");
+//     }
+//     console.log("congragulations!");
+// }
+
+
+// guesspassword();
+
+// function number(){
+//     let num = prompt("enter the number")
+//     for(let i = 0 ; i<=num.length-1 ; i++){
+//         console.log(num[i]);
+//     }
+
+
+// }
+
+// number();
+
+// write the reverse of the number -- 
+
+// function reversenumber(){
+//     let num = prompt("enter the number")
+//     let reversed = ""
+//     for(let i = num.length-1 ; i>=0 ; i--){
+//         reversed+=num[i]
+//     }
+//         console.log(reversed)
+// }
+
+// reversenumber();
+
+// write a program to check if a number is prime or even
+
+// function number(){
+//     let num = prompt("enter the number")
+//     if (num%2 == 0){
+//         console.log("even")
+//     }
+//     else {
+//         console.log("odd")
+//     }
+// }
+
+// number();
+
+// Ask the user for age and print “Minor”, “Adult”, or “Senior Citizen”.
+
+// function age(){
+//     let A = prompt("enter the age")
+//     if(A<18){
+//         console.log("minor")
+//     }
+//     else if ((A>=18) && (A<50)){
+//         console.log("adult")
+//     }
+//     else {
+//         console.log("senior")
+//     }
+//     }
+
+//     age();
+
+// Take a number and print whether it is positive, negative, or zero. 
+
+// function number(){
+//     let a = prompt("enter the 1st number")
+//     let b = prompt("enter the 2nd number")
+//     let c = prompt("enter the 3rd number")
+//     if ((a>b) && (a>c)){
+//         console.log(a);
+//     }
+//     else if ((b>a) && (b>c)){
+//         console.log(b);
+//     }
+//     else{
+//         console.log(c);
+//     }
+// }
+
+// number();
+
+// write a program to check if a number is divisable by 7 or not
+
+// function divide(){
+//     let num = prompt("enter the number")
+//     if (num%7 == 0){
+//         console.log("divisable")
+//     }
+//     else {
+//         console.log("not divisable")
+//     }
+// }
+
+// divide();
+
+
+// 6. Check if a given year is a leap year.
+
+// function leapyears() {
+//     let year = prompt("enter the year")
+//     if( (year%400===0) || (year%4 ===0) ){
+//         console.log("leap year");
+//     }
+// else{
+//     console.log("not a leap year");
+// }
+// }
+
+// leapyears();
+
+// 7 .Ask the user for temperature and print “Hot”, “Warm”, “Cold”
+
+
+
+// 8. Take a character and check if it is a vowel or consonant.
+
+// function character(){
+//     let letter = prompt("enter the letter")
+//     if (letter === "a") {
+//         console.log("vowel");
+//     }
+//     else if (letter === "e") {
+//         console.log("vowel");
+//     }
+//     else if (letter === "i") {
+//         console.log("vowel");
+//     }
+
+// else if (letter === "o") {
+//         console.log("vowel");
+//     }
+//     else if (letter === "u") {
+//         console.log("vowel");
+//     }
+//     else {
+//         console.log("consoanat")
+//     }
+// }
+
+// character();
+
+// 10. Ask user for a name and print “Hello <name>, welcome to Python!”
+
+// function sentence(){
+//     let name = prompt("enter the name")
+//     {
+//         console.log(`hello ${name},how are you?`)
+//     }
+// }
+// sentence();
+
+// Print numbers from 1 to 50.
+
+// function prime(){
+//    for(i=1 ; i<=50 ; i++){
+//     console.log(i);
+//    }
+// }
+
+// prime();
+
+// Print all odd numbers between 1 and 100
+
+// function oddnum(){
+//     for(i=1 ; i<=100 ; i+=2){
+//         console.log(i);
+//     }
+// }
+
+// oddnum();
+
+
+// 13. Print the multiplication table of any number (ask user)
+
+// function table(){
+//     let num = prompt("enter the number")
+//     num = parseInt(num)
+//     for(let i = num ; i<=10*num ; i+=num) {
+//         console.log(i);
+//     }
+// }
+
+// table();
+
+// Print the sum of first N natural numbers****** 
+
+// function natural(){
+//     let sum = 0
+//     let num = prompt("enter the number")
+//     num= parseInt(num)
+//     for(let i = 1 ; i<=num ; i++)
+//         sum+=i; {
+//     console.log(sum)}
+       
+// }
+
+// natural();
+
+// Print all numbers divisible by 8 between 1 and 200
+
+// function divisable(){
+//     // let num = prompt("enter the number")
+//     // num = parseInt(num)
+//     for(let i = 1 ; i<=200 ; i++){
+//         if(i%8 == 0){
+//             console.log(i)
+//         }
+//     }
+       
+//     }
+
+
+// divisable();
+
+// Print the factorial of a number
+
+// function factorial(){
+//     let num = prompt("enter the number")
+//     num = parseInt(num)
+//     let mul = 1
+//     // mul = parseInt(mul)
+//     for (let i = 1; i<=num ; i++){
+//         mul*=i 
+//     }
+//     console.log(mul);
+// }
+
+//     factorial();
+
+// Count digits of a number (without using string)********
+
+// function digits(){
+//     let num = prompt("enter the number")
+//     num = parseInt(num)
+//     let count = 0
+//     while(num>0){
+//         num=num/10;
+//         count++
+//     }
+//     console.log(count);
+// }
+
+// digits();
+
+// function countDigits(num){
+//     let count = 0;
+//     while(num > 0){
+//         num= Math.floor(num/10);
+//         count++
+//     }
+//     console.log(count);
+// }
+
+// countDigits(5667);
+
+// function countDigits(num) {
+//     let count = 0;
+
+//     while (num > 0) {
+//         num = Math.floor(num / 10);
+//         count++;
+//     }
+
+//     console.log(count);
+// }
+
+// countDigits(5667);  
+
+// Reverse a number (without using string).******
+
+// function reverse(num){
+//     num = num.toString();
+//     for(let i = num.length-1;i>=0;i--){
+//         console.log(num[i]);
+//     }
+
+// }
+
+// reverse(563);
+
+
+// Print each digit of a number on a new line
+
+// function digits(){
+//     let num = prompt("enter the number")
+//     for(let i = 0 ; i <= num.length-1 ; i++){
+//         console.log(num[i])
+//     }
+// }
+
+// digits();
+
+// 20. Create a pattern:
+// *
+// **
+// ***
+
+// function pattern(input ){
+   
+//     for( let i =1 ; i <= input ; i++){
+//         console.log("*".repeat(i));
+//       }
+
+// }
+
+// pattern(5);
+
+// Write a function to calculate the square of a number.
+
+// function square(){
+//     let num = prompt("enter the number")
+//     num = parseInt(num)
+//     let square = num * num 
+//         console.log(square);
+//     }
+
+
+// square();
+
+
+
+// Write a function to return the average of a list of numbers
+
+// function average(arr){
+//     let sum = 0
+    
+//     for(let i = 0 ; i <= arr.length - 1 ; i++ ){
+//         sum += arr[i]
+//     }
+//     let average = sum / arr.length 
+//     console.log(average)
+    
+// }
+
+// average([3 , 18 , 9]);
+
+
+
+// Write a function that prints all prime numbers from 1–100
+
+// function primes(){
+//     for ( let num= 2 ; num<=100 ; num++){
+
+//         let isprime = true ;
+
+//         for(i=2 ; i<=num ; i++){
+//             if (num % i == 0 ){
+//                 isprime = false 
+//                 break;
+//             }
+//         }
+
+//         if (isprime){
+//             console.log(num);
+//         }
+
+//     }
+    
+
+// }
+
+
+
+// primes();
+
+// function printPrimes() {
+//     for (let num = 2; num <= 100; num++) {
+
+//         let isPrime = true;
+
+//         for (let i = 2; i < num; i++) {   // check all numbers before num
+//             if (num % i === 0) {
+//                 isPrime = false;
+//                 break;
+//             }
+//         }
+
+//         if (isPrime) {
+//             console.log(num);
+//         }
+//     }
+// }
+
+// printPrimes();
+
+// Write a function to check if a number is an Armstrong number
+
+// function armstrong(num){
+//     let original = num ;
+//     let numb = num.toString().length;
+//     let sum = 0; 
+//     while (num > 0) {
+//         let digit = num % 10;  // last digit
+//         sum += digit**numb;          // add to sum
+//         num = Math.floor(num / 10);
+//      } // remove last digit
+
+    
+     
+//     if  (sum===original){
+//         console.log("yes");
+
+//     }   
+//     else {
+//         console.log("no");
+//     }
+// }
+
+// armstrong(153);
+
+
+// Write a function that returns the sum of digits of a number
+
+// function sumat(num){
+//     let number= num;
+//     let sum = 0;
+//     while(number>0){
+//         let digit = number % 10 ;
+//         sum += digit;
+//         number = Math.floor(number/10);
+
+//     }
+
+//     console.log(sum);
+// }
+
+// sumat(567);
+
+// Write a function that counts vowels in a string
+
+// function vowels(str){
+//     let count = 0
+//     for (ch of str ){
+//         if (
+//             (ch === 'a')||
+//             (ch === 'e')||
+//             (ch === 'i')||
+//             (ch === 'o')||
+//             (ch === 'u')||
+//             (ch === 'A')||
+//             (ch === 'E')||
+//             (ch === 'I')||
+//             (ch === 'O')||
+//             (ch === 'U')
+//         )
+        
+//         {
+
+//         count++ 
+//         }
+
+
+//     }
+
+//     console.log(count)
+
+// }
+
+// vowels("lahari");
+
+// Write a function that counts uppercase and lowercase letters in a string.
+
+
+// function  countUpperNdLower(str){
+
+
+//     let s = 0;
+//     let u = 0;
+//     for(let ch of str){
+//         if(ch >= 'a' && ch <='z'){
+//             s++;
+//         }
+//         else if(ch >='A' && ch <= 'Z'){
+//             u++;
+//         }
+//     }
+//     console.log(s,u);
+
+// }
+
+// countUpperNdLower("ShanZz");
+
+// Write a function that returns Fibonacci series up to N terms.
+
+// function fibonacci(n){
+//     let a=0;
+//     let b=1;
+//     console.log(a);
+//     console.log(b);
+    
+//     for(let i = 2 ; i<n ; i++){
+//         let c = a+b;
+//         console.log(c);
+//         a=b;
+//         b=c;
+//     }
+
+
+// }
+
+// fibonacci(12);
+
+// Write a function that finds the maximum element in a list (without max()).
+
+// function findMax(arr){
+//     let max = arr[0]
+
+//     for (let i =1 ; i<arr.length ; i++){
+//         if(arr[i]>max){
+//             max = arr[i];
+//         }
+
+//     }
+//     console.log(max);
+// }
+
+// findMax([2,6,4,1,7]);
+
+// 32. Write a program to print numbers from 1–100 but:
+
+
+
+// Print "Fizz" for multiples of 3
+
+// Print "Buzz" for multiples of 5
+
+// Print "FizzBuzz" for both
+
+// function print(){
+//     for(let i = 1 ; i<=100 ; i++ ){
+      
+//         if (( i %3===0) && ( i%5===0)) {
+//         console.log("fizzbuzz");
+//        }
+//         else if ( i %3===0){
+//         console.log("fizz");
+//        }
+//        else if ( i%5===0){
+//         console.log("buzz");
+//        }
+//        else {
+//         console.log(i);
+//        }
+//     }
+// }
+
+// print();
+
+// Count how many times each character occurs in a string.
+
+// function character(name){
+
+// }
+
+// Given a list, remove all duplicates.
+
+// function duplicate(arr){
+//     let myset = new Set();
+//     for (let i = 0 ; i<arr.length ;i++){
+//         myset.add(arr[i]);
+//     }
+//     console.log(myset);
+
+// }
+
+// duplicate([4,7,9,4,7,8,10]);
+
+// Write a program to check if a string is a palindrome
+
+// function palindrome(str){
+//     str = String(str);
+//     let len = str.length
+   
+
+
+
+// }
+
+// Write a program to find second largest number in a list
+
+// function maxtwo(arr){
+
+//      let max = arr[0]
+//      for (let i =1 ; i<arr.length ; i++){
+//         if(arr[i]>max){
+//             max = arr[i];
+//         }
+//         arr.remove(i);
+//         console.log(arr);
+
+//     }
+    
+// }
+
+// maxtwo([5,2,6,9,1]);
+
+// Write a program to find second largest number in a list
+// function secLarge(arr){
+//     let lar = arr[0];
+//     let secLar ; 
+//     for(let i = 1;i<arr.length;i++){
+//         if(lar < arr[i]){//3,5
+//             secLar = lar;//sec = lar
+//             lar = arr[i]
+//         }
+
+//     }
+//     console.log(secLar);
+// }
+//  secLarge([1,2,3,4,2,5,6,7]);
+
+// function seclargest(arr){
+//     let lar = arr[0];
+//     let seclar = arr[1] ;
+//     let thirdlar;
+
+//     for( let i=1 ; i<arr.length ; i++){
+//         if (arr[i]>lar){
+//             thirdlar=seclar;
+//             seclar=lar;
+//             lar=arr[i];
+//         } else if(thirdlar > seclar){
+//             let temp = seclar;
+//             seclar = thirdlar;
+//             thirdlar = temp;
+
+            
+//         }
+//     }
+
+//     console.log(thirdlar);
+// }
+
+// seclargest([6,8,3,9,2,7]);
+
+// let evennum = (n) => {
+//     if (n% 2 == 0) {
+//         console.log("even");
+//     }
+//     else{
+//         console.log("odd");
+//     }
+//     }
+
+//     evennum(5);
+
+// write a program which returns min value in an array
+
+// let arr = [7 , 12, 8, 5, 10]
+// let minn = arr.reduce((min , el) => {
+//     if(el<min){
+//         min = el
+        
+//     }
+//     // else{
+//     //     return min;
+//     // }
+//     return min; 
+// })
+
+// console.log(minn)
+
+
+// function divide(){
+//     let num = 32 
+//     try {
+//         let ans = num/0 
+//     console.log(ans); 
+//     }
+//     catch {
+//         "error occured .. 404"
+//     }
+//     let ans = 32 / 2 
+//     console.log(ans);
+// }
+
+// let sum = (a,b) => {
+//     let A = a * a
+//     let B = b * b
+//     let sum = A + B 
+//     return sum ;
+    
+// }
+
+// console.log(sum(4,5));
+
+
+// const getUser = () => (
+//     {
+//         name: "Lahari",
+//         age: 18
+
+//     }
+// );
+
+// console.log(getUser());
+
+// What does the setTimeout() function do in JavaScript?
+
+// let int = () => {
+//     console.log("lahari yadav");
+// }
+
+// setTimeout(int() , 10000);
+
+// 3. Write a program that uses setTimeout() to log "Hello, World!" after 2 seconds.
+
+// let fun = () => {
+    
+//     console.log("Hello world !");
+// }
+// for(i=0 ; i<=5 ; i++){
+//     setInterval(fun , 2000);
+
+// }
+
+// 2. Create an arrow function to sum an array of numbers and return the result.
+// const sumArray = arr => arr.reduce((acc, n) => acc + n);
+// console.log(sumArray([3,5,9,12,6]));
+
+
+// Write a program using setInterval() that logs "Tick" to the console every 2 seconds.
+// let name = () => {
+//     console.log("tick");
+// }
+
+
+// let close = setInterval(name,2000);
+
+// setTimeout(() => {
+//     clearInterval(close) 
+// }, 11000);
+
+// let nums = [1, 2, 3, 4, 5, 6];
+
+// let result = nums.filter(n => n % 2 === 0).map(n => n * 2);           // then double them
+
+// console.log(result);
+// Output: [4, 8, 12]
+
+// let arr = [7,5,9]
+
+// let allEven = arr.some(el => el%2==0);
+// console.log(allEven);
+
+
+// 4. Write an example using reduce() to find the highest number in an array.
+
+// without reduce 
+// let arr = [ 5,1,8,4,2]
+// let max = 0
+// for (i=0 ; i<=arr.length-1;i++){
+//      if(arr[i]>max) {
+//         max = arr[i]
+
+//     }
+
+// }
+
+// console.log(max);
+
+// with reduce 
+// let arr = [ 5,1,8,4,2]
+// let ans = arr.reduce((max,el)=>{
+//     if(el>max){
+//         return el;
+//     }
+//     else{
+//         return max;
+//     }
+// });
+// console.log(ans);
+
+// 3. How can you find the maximum value in an array with using the built-in Math.max()
+// method?
+
+// let arr = [ 5,1,8,4,2]
+// let maxi = 0 
+// for(let i=0 ; i<arr.length;i++){
+//     maxi = Math.max(maxi , arr[i])
+// }
+// console.log(maxi);
+
+
+// How would you handle an array of negative numbers while finding the maximum value?
+// let arr = [-6 , -4 , -7 , -2]
+
+// let result = arr.reduce((min,el)=>{
+//     if(el<min){
+//         return el;
+//     }
+//     else{
+//         return min;
+//     }
+
+// })
+// console.log(result);
+
+// 2. Create a function that uses filter() to return all strings with more than 3 characters in an array.
+
+    // let arr = ["lahari","yadav","red","math"]
+    // let newArr = arr.filter((el)=>{
+    //     return el.length >3
+    // })
+    // console.log(newArr);
+
+    // Write a program that finds the sum of all odd numbers in an array using reduce()
+    // let arr = [6 , 3, 7 , 1 ,5]
+    // let newArr = arr.filter((el)=>(
+    //     el%2!=0
+    // )).reduce((acc,el)=>{
+    //     return acc+el;
+    // })
+    // console.log(newArr);
+
+    // Use the every() method to check if all elements in an array are greater than 10.
+    // let arr = [15 , 17 ,23 , 176 , 16]
+    // let result = arr.every((el)=>(
+    //     el>10
+    // ))
+    // console.log(result);
+    
+    // Use reduce() to find the product of all elements in an array.
+    // let arr = [5,6,1,4,9]
+    // let newArr = arr.reduce((acc ,el)=>{
+    //     return acc*el ;
+    // })
+    // console.log(newArr);
+
+    // Write a function that takes two parameters, with the second having a default value of 10.
+    // function add(a,b=10){
+    //     return a+b;
+    // }
+    // console.log(add(5));
+    
+    // let arr = [2,4,6,7];
+    // let obj = {...arr};
+    // console.log(obj);
+
+    // What happens when you use the spread operator on an object?
+    // let obj = {name:"lahari",
+    //      standard: "12",
+    //     age: "18"
+
+    // }
+    // let ans = []
+    // console.log(ans);
+
+    // How does the spread operator work with array literals?
+//     let arr = [7 , 5 , 8, "la" , [4]]
+//     let arr2 = [10 , "lo",45]
+//     let newArr = [...arr,...arr2]
+    
+//     newArr.push( "yadav")
+    
+// console.log(newArr);
+
+// let obj1={name:"lahari",
+//     age:18,
+//     city:"hyd"
+// }
+
+// let obj2={name1:"lol",
+//     age1:19,
+//     city1:"indore"
+// }
+
+// let Obj = {...obj1,...obj2, class:12}
+
+// Obj.name1="LOL"
+// console.log(Obj);
+
+
+// How would you use destructuring to extract values from an object?
+// Can you use default values with destructuring? Provide an example
+// 3. Can you rename properties during object destructuring? Provide an example.
+// NO
+// let obj = {name:"lahari" , age:18};
+//     // let{name:a,age:b} = obj;
+//     // console.log(a)
+//     // console.log(b)
+//     // let{city="hyd"} = obj
+//     // console.log(city);
+//      let{Name ="LAHARI"} = obj;
+//      console.log(obj);
+     
+
+
+
+// 3. Write an example of array destructuring to assign values to multiple variables.
+    // let arr = [6 , 45 , "lahari" ,23 ,89];
+    // let[a,b,c,...d] = arr;
+    // console.log(a)
+    // console.log(d)
+
+
+//  How would you destructure an object with dynamic property names?
+
+
+
+// Write an example that demonstrates object destructuring with nested objects.
+// obj = {
+//     name:"lol",
+//     age:18,
+//     a :{
+//         goal:"being independent",
+//         lifeLine:"4 years"
+
+//     }
+// }
+// let{goal,lifeLine} = obj.a;
+// console.log(typeof(goal))
+// console.log(typeof(lifeLine));
+
+// 1. Select an element using getElementById and change its text to 'Hello DOM'
+// let head = document.getElementById('head')
+// head.innerText = "Hello DOM"
+
+// 2. Select all tags using getElementsByTagName and log their count.
+// let tag = document.getElementsByTagName("p")
+// console.log(tag.length);
+
+// 3. Select elements with class 'box' and change their background color.
+// let box = document.getElementsByClassName("box")
+// box[0].style.background = "yellow"
+
+// 4. Use querySelector to select the first and make its text red.
+// let para = document.getElementsByClassName("p1")
+// para[0].style.background = "yellow"
+// para[0].style.color = "red"
+
+// 5. Use querySelectorAll to select all buttons and change their text.**********
+// let buttons = document.querySelectorAll("button");
+// console.log(buttons);
+
+// buttons.forEach(btn => {
+//     btn.innerText = "Clicked";
+//     btn.style.background = "yellow"
+//     btn.style.padding = "10px"
+//     btn.style.borderColor = "red"
+//     btn.style.width = "200px"
+//     btn.style.color = "red"
+
+//   });
+
+
+
+
+// 6. Explain innerText vs innerHTML vs textContent with examples.
+// let head = document.getElementById('head')
+// console.log(head.innerText)
+// console.log(head.innerHTML)
+// console.log(head.textContent)
+
+// 7. Change the src attribute of an image dynamically.
+// let img= document.getElementsByClassName("image")
+// console.log(img)
+// img[0].src = "solar system.jpg"
+
+
+
+
+// 8. Add a title attribute to a button using JavaScript.
+//  let btn = document.querySelector("button")
+// // // console.log(btn.getAttribute("type"))
+// // // console.log(btn);
+// console.log(btn.setAttribute("title" ,"enter"))
+// // console.log(btn);
+
+
+// 9. Remove the disabled attribute from an input field.
+
+
+
+// 10. Change font size and background color of a div using style.
+// let a = document.querySelector('.js9')
+// a.style.background = "pink"
+// a.style.fontSize = "20px"
+
+
+
+// 11. Hide an element using JavaScript (3 methods).
+// let b = document.querySelector('#head')
+// b.style.display = "none"
+// b.style.visibility = "hidden"
+// b.style.visibility = "hidden"
+
+
+
+
+
+
+// 12. Why is inline styling via JS not recommended?
+
+
+
+// 13. Add a class 'active' to a button on page load.
+
+
+
+
+// 14. Toggle dark mode using classList.
+// let button = document.querySelector("button")
+// let body = document.querySelector("body")
+// button.addEventListener("onclick" ,()=>{
+//     body.classList.toggle("dark")
+// });
+// let button = document.querySelector("button")
+// button.addEventListener("click" ,()=>{
+//     document.body.classList.toggle("white")
+// })
+
+
+
+
+
+// 15. Remove a class from multiple elements using a loop.
+// let a = document.querySelectorAll('p')
+// for(i=0 ; i<a.length ;i++){
+//     a[i].classList.remove("p1");
+// }
+
+// console.log(a);
+
+
+
+
+// 16. Check whether an element contains a class.
+// let h = document.querySelector("h1")
+// h.classList.contains("box")
+// console.log(h.classList.contains("box"));
+
+
+
+// 17. Difference between className and classList.
+
+
+// 1.Select the parent of a clicked element.
+// let para = document.querySelector("p")
+// para.addEventListener("click" , ()=>{
+//     console.log(para.parentElement)
+// })
+
+
+
+
+
+// 2 Find and number all children of a list.
+// 3 Create and append elements dynamically.
+
+// let ul = document.querySelector("ul")
+// let nli = document.createElement("li")
+// ul.appendChild(nli)
+// console.dir(ul);
+
+// let count=0
+// for(i=0;i<ul.children.length;i++){
+//     count+=1
+
+// }
+// console.log(count)
+
+
+
+// 4 Use DocumentFragment to append multiple elements.
+// let ul = document.querySelector("ul")
+// let frag = document.createDocumentFragment();
+
+// for(let i = 0 ; i<=5 ; i++){
+//     let li = document.createElement("li")
+//     li.innerHTML= "lahari"
+//     frag.appendChild(li)
+// }
+
+// ul.appendChild(frag);
+// console.log(ul)
+
+
+// 1 Remove a list item when clicked.
+// let ul = document.querySelector("ul")
+// let li = document.querySelectorAll("li")
+// li.forEach(li => {li.addEventListener("click",()=>{
+//     ul.removeChild(li)
+// });
+// });
+// console.log(ul)
+
+
+// 2 Remove all children of a container.
+// let ul = document.querySelector("ul")
+// let li = document.querySelectorAll("li")
+// li.forEach((li)=>{
+//     ul.removeChild(li)
+
+// })
+
+
+
+// 3 Replace one heading with another.
+
+
+
+
+// 4 Difference between remove() and removeChild().
+
+
+
+// LEVEL 1: DOM Events Basics
+
+// 1 What is an event in JavaScript? Give two real-life examples.
+// An event is an action or occurrence triggered by the user or the browser.
+
+
+
+// 2 Create a button and show an alert when it is clicked.
+// let btn = document.querySelector("button")
+// btn.addEventListener("click" , ()=>{
+//     alert("danger!!!")
+
+// } )
+
+
+
+// 3 Difference between inline onclick and addEventListener.
+// | Feature                   | `onclick`       | `addEventListener` |
+// | ------------------------- | --------------- | ------------------ |
+// | Written in                | HTML            | JavaScript         |
+// | Separation of concerns    | ❌ No            | ✅ Yes              |
+// | Multiple handlers         | ❌ No            | ✅ Yes              |
+// | Modern usage              | ❌ Not preferred | ✅ Recommended      |
+// | Control (remove, options) | ❌ Limited       | ✅ Full control     |
+
+
+
+
+// 4 Why are inline event handlers not recommended?
+// because multiple event handlers are not possible
+
+
+// LEVEL 2: Event Listeners
+// 1 Add a click event using addEventListener.
+// let btn = document.querySelector("button")
+// btn.addEventListener("click" , ()=>{
+//     alert("danger!!!")
+// } )
+
+// 2 Attach two click listeners to the same button and observe the result.
+// let btn = document.querySelector("button")
+// btn.addEventListener("click" , ()=>{
+//     console.log("1st")
+//     } )
+// btn.addEventListener("click" , ()=>{
+//     console.log("2nd")
+//     } )    
+// // 3 Why does removeEventListener not work with anonymous functions?
+// To remove an event listener, you must pass the exact same function reference used when adding it.
+
+// Anonymous functions don’t have a reference → ❌ cannot be removed.
+    
+
+// LEVEL 3: Mouse & Pointer Events
+
+// 1 Change background color of a div on mouseover and mouseout.
+// let div1 = document.querySelector(".js9")
+// div1.addEventListener("mouseover",()=>{
+//     div1.style.background = "red"
+// })
+// div1.addEventListener("mouseout",()=>{
+//     div1.style.background = "aqua"
+// })
+
+
+// 2 Difference between mouseover and mouseenter.
+// let div1 = document.querySelector(".js9")
+// div1.addEventListener("mouseover",()=>{
+//     // div1.style.background = "red"
+//     console.log("entered into div");
+    
+// })
+
+// 3 Log mouse coordinates using clientX and clientY.
+// let div1 = document.querySelector(".js9")
+// div1.addEventListener("click" , (e)=>{
+//     console.log(e.clientX , e.clientY)
+// })
+
+
+// LEVEL 4: this in Event Listeners
+
+// 1 Inside an event listener, log this and explain what it refers to.
+// let div1 = document.querySelector(".js9")
+// div1.addEventListener("click" , function dic(){
+//     console.log(this);
+    
+// }
+
+// )
+
+
+// 2 Change only the clicked button’s color when multiple buttons exist.
+// let btn = document.querySelectorAll("button")
+// btn.forEach(el => {el.addEventListener("click" , function(el){
+//     el.target.style.background = "red"
+// });
+// });
+
+
+
+// 3 Why does this behave differently in arrow functions?
+
+// LEVEL 5: Keyboard & Form Events
+// 1 Detect key presses inside an input field and log the key.
+// let input = document.querySelector(".input")
+// input.addEventListener("keydown" , function(event){
+//     console.log(event.key)
+// })
+
+// 2 Submit a form using Enter key without page reload.
+// let form = document.querySelector("form")
+// form.addEventListener("submit" , function(e){
+//     // e.preventDefault();
+//     console.log("form submitted")
+// })
+
+
+// 3 Extract values from form inputs and prevent default submission.
+
+
+
+// LEVEL 6: Advanced Event Concepts
+// 1 Explain event bubbling with an example.
+// 2 Stop event propagation using stopPropagation().
+// 3 Explain event delegation and implement it for a list.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
